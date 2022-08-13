@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg20" class="icon icon-tabler icon-tabler-vector" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <line id="line12" x1="5" x2="5" y1="7" y2="17"/>
+ <line id="line14" x1="19" x2="19" y1="7" y2="17"/>
+ <line id="line16" x1="7" x2="17" y1="5" y2="5"/>
+ <line id="line18" x1="7" x2="17" y1="19" y2="19"/>
+ <circle id="circle139" cx="5" cy="5" r="2"/>
+ <circle id="circle455" cx="19" cy="5" r="2"/>
+ <circle id="circle457" cx="19" cy="19" r="2"/>
+ <circle id="circle459" cx="5" cy="19" r="2"/>
+</svg>
