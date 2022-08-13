@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="icon icon-tabler icon-tabler-truck-loading"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="currentColor"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg12"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <path
+     stroke="none"
+     d="M0 0h24v24H0z"
+     fill="none"
+     id="path2" />
+  <path
+     d="M 2.5726315,4.8601828 3.5385573,4.6013638 C 4.6054895,4.3154802 5.7021635,4.9486451 5.9880471,6.0155774 l 2.5881904,9.6592586 m 2.4494895,1.414213 10.625184,-2.847009"
+     id="path4" />
+  <rect
+     x="7.2270632"
+     y="8.3604231"
+     width="10"
+     height="8"
+     rx="3"
+     id="rect6"
+     transform="rotate(-15)" />
+  <circle
+     cx="4.2270632"
+     cy="20.360422"
+     r="2"
+     id="circle8"
+     transform="rotate(-15)" />
+</svg>

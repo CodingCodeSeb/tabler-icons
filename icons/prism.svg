@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg12" class="icon icon-tabler icon-tabler-box" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <line id="line1159" x1="4" x2="4" y1="7.5" y2="16.5"/>
+ <line id="line1161" x1="20" x2="20" y1="7.5" y2="16.5"/>
+ <line id="line1127" x1="8.025" x2="8.025" y1="11.513" y2="20.513"/>
+ <line id="line1129" x1="16.021" x2="16.021" y1="11.487" y2="20.487"/>
+ <path id="path1134" d="m19.996 16.856-3.975 4.1312-7.9962 0.02647-4.0212-4.1047" fill-rule="evenodd"/>
+ <path id="path454" d="m4 7.5 3.9781-3.9864 7.9962-0.026468 4.0212 3.8688-3.9745 4.1311-7.996 0.026z" fill="none"/>
+</svg>

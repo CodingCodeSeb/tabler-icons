@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg16" class="icon icon-tabler icon-tabler-current-location" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <circle id="circle4" cx="7.5" cy="7.5" r="4" stroke-width="2"/>
+ <path id="line8" d="m7.5 1v3.5"/>
+ <path id="line10" d="m7.5 10.5v3.5"/>
+ <path id="line12" d="m10.5 7.5h3.5"/>
+ <path id="line14" d="m1 7.5h3.5"/>
+ <circle id="circle426" cx="11" cy="11" r="0" fill="#000" stroke="none"/>
+ <path id="path4931" d="m7 7.5h1"/>
+ <path id="path4945" d="m7.5 7v1"/>
+ <circle id="circle243" cx="16.5" cy="16.5" r="4" stroke-width="2"/>
+ <path id="path245" d="m16.5 10v3.5"/>
+ <path id="path247" d="m16.5 19.5v3.5"/>
+ <path id="path249" d="m19.5 16.5h3.5"/>
+ <path id="path251" d="m10 16.5h3.5"/>
+ <path id="path253" d="m16 16.5h1"/>
+ <path id="path255" d="m16.5 16v1"/>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="icon icon-tabler icon-tabler-file"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="currentColor"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg8"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs12" />
+  <path
+     stroke="none"
+     d="M 0,0 H 24 V 24 H 0 Z"
+     fill="none"
+     id="path2" />
+  <path
+     d="m 15.5,3 v 4 a 1,1 0 0 0 1,1 h 4"
+     id="path4" />
+  <path
+     d="M 6.5,13 V 5 c 0,-1.1045695 0.8954305,-2 2,-2 h 7 l 5,5 v 5.5 5.5"
+     id="path6" />
+  <path
+     d="M 3,21.112696 V 16 h 1.7574894 a 1.437946,1.437946 0 0 1 0,2.875892 H 3"
+     id="path4446" />
+  <path
+     d="m 8.5,16 h 1.917262 a 1.5977177,1.5977177 0 0 1 1.597717,1.597717 v 1.917262 a 1.5977177,1.5977177 0 0 1 -1.597717,1.597717 H 8.5 V 16"
+     id="path5321" />
+  <path
+     d="M 17.695435,16 H 14.5 v 5.112696"
+     id="path6922" />
+  <line
+     x1="14.880172"
+     y1="18.980743"
+     x2="17.43652"
+     y2="18.980743"
+     id="line6924" />
+</svg>

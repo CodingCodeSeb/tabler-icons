@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg278" class="icon icon-tabler icon-tabler-forbid" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path272" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="circle274" d="m21 12a9 9 0 0 1-4.5 7.7942 9 9 0 0 1-9 0 9 9 0 0 1-4.5-7.7942" fill="#000" stroke-linecap="butt"/>
+ <path id="line145" d="m12 5.5v5"/>
+ <path id="line147" d="m9.5 8h5"/>
+ <path id="path689" d="m9.536 16h5" stroke="#fff"/>
+</svg>

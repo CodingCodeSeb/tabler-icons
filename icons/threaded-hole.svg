@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg16" class="icon icon-tabler icon-tabler-current-location" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <circle id="circle4" cx="12" cy="12" r="5" stroke-width="2"/>
+ <path id="circle6" d="m20 12a8 8 0 0 1-4.9385 7.391 8 8 0 0 1-8.7183-1.7342 8 8 0 0 1-1.7342-8.7183 8 8 0 0 1 7.391-4.9385"/>
+ <path id="line8" d="m12 2v7"/>
+ <path id="line10" d="m12 15v7"/>
+ <path id="line12" d="m15 12h7"/>
+ <path id="line14" d="m2 12h7"/>
+ <circle id="circle426" cx="11" cy="11" r="0" fill="#000" stroke="none"/>
+ <path id="path4931" d="m11.5 12h1"/>
+ <path id="path4945" d="m12 11.5v1"/>
+</svg>
