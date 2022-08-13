@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg12" class="icon icon-tabler icon-tabler-box" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="path706" d="m10.5 9.5v11l10-3.5v-11z" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+ <use id="use1358" transform="translate(-6.5,-2.5)" xlink:href="#path706"/>
+ <path id="path1360" d="m4 7 6.5 2.5" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+ <use id="use1368" transform="translate(10,-3.5)" xlink:href="#path1360"/>
+ <use id="use1370" transform="translate(0,11)" xlink:href="#path1360"/>
+ <use id="use1372" transform="translate(10,7.5)" xlink:href="#path1360"/>
+</svg>

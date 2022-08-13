@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg10" class="icon icon-tabler icon-tabler-app-window" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="rect4" d="m14.5 19h-9.5c-1.108 0-2-0.892-2-2v-10c0-1.108 0.892-2 2-2h14c1.108 0 2 0.892 2 2v4.5"/>
+ <path id="path6" d="M6 8h.01"/>
+ <path id="path8" d="M9 8h.01"/>
+ <path id="path532" d="m14 16h7m-3-3 3 3-3 3"/>
+</svg>
