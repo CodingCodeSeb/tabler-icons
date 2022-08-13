@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="icon icon-tabler icon-tabler-box"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="currentColor"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg12"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs16" />
+  <path
+     stroke="none"
+     d="M0 0h24v24H0z"
+     fill="none"
+     id="path2" />
+  <path
+     id="polyline4"
+     d="M 20,16.5 12,21 4,16.5 v -9 L 12,3" />
+  <line
+     x1="8"
+     y1="9.75"
+     x2="16"
+     y2="5.25"
+     id="line6" />
+  <path
+     id="line10"
+     d="M 12,21 V 16 L 8,13.75 v -4 L 4,7.5" />
+  <path
+     id="path400"
+     d="m 20,16.5 v -5 L 16,9.25 v -4 L 12,3" />
+  <line
+     x1="8"
+     y1="13.75"
+     x2="16"
+     y2="9.25"
+     id="line402" />
+  <line
+     x1="12"
+     y1="16"
+     x2="20"
+     y2="11.5"
+     id="line404" />
+</svg>

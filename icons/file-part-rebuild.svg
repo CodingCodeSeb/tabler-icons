@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg191" class="icon icon-tabler icon-tabler-file" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path185" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="path187" d="m11 2v4c0 0.55228 0.44772 1 1 1h4"/>
+ <path id="path189" d="m11.314 20h-7.3136c-1.1046 0-2-0.89543-2-2v-14c0-1.1046 0.89543-2 2-2h7l5 5"/>
+ <path id="rect12" d="m6 9.5h3v3h3v3h-6z"/>
+ <ellipse id="circle10" cx="18.576" cy="13.598" rx="1.5" ry="1.5001" fill="#000" stroke="none"/>
+ <path id="path1899" d="m15.061 18.398c-0.0014 1.2854 0.65561 2.4738 1.7234 3.1173 1.0678 0.64352 2.384 0.6443 3.4525 2e-3 1.0685-0.64226 1.7268-1.8299 1.7268-3.1152l0.0063-0.0041-0.0032-4.8022c-0.0031-1.2874-0.66142-2.475-1.7299-3.1173-1.0685-0.64226-2.3847-0.64148-3.4525 2e-3 -1.0678 0.64352-1.7248 1.8319-1.7234 3.1173z" fill-rule="evenodd" stroke-width="2"/>
+ <ellipse id="circle1977" cx="18.515" cy="18.398" rx="1.5" ry="1.5001" fill="#000" stroke="none"/>
+</svg>
