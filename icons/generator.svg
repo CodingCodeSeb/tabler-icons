@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="icon icon-tabler icon-tabler-battery-automotive"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="currentColor"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg16"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs20" />
+  <path
+     stroke="none"
+     d="M0 0h24v24H0z"
+     fill="none"
+     id="path2" />
+  <path
+     id="rect4"
+     d="m 4.5,4 h 15 c 1.108,0 2,0.892 2,2 v 12 c 0,1.108 -0.892,2 -2,2 h -15 c -1.108,0 -2,-0.892 -2,-2 V 6 c 0,-1.108 0.892,-2 2,-2 z"/>
+  <circle
+     cx="15.559822"
+     cy="10.567797"
+     r="2"
+     id="circle3369"
+      />
+  <path
+     d="m 15.559822,7.067797 v 1.5"
+     id="path3371"
+      />
+  <path
+     d="m 15.559822,12.567797 v 1.5"
+     id="path3373"
+      />
+  <path
+     d="m 18.590822,8.817797 -1.299,0.75"
+     id="path3375"
+      />
+  <path
+     d="m 13.827822,11.567797 -1.3,0.75"
+     id="path3377"
+      />
+  <path
+     d="m 18.559822,12.370797 -1.285,-0.773"
+     id="path3379"
+      />
+  <path
+     d="m 13.844822,9.537797 -1.285,-0.773"
+     id="path3381"
+      />
+  <circle
+     cx="3.3334172"
+     cy="15.914056"
+     r="2"
+     id="circle3935"
+     transform="rotate(-20.287552)"
+      />
+  <path
+     d="m 7.4309753,10.488139 0.5200978,1.406946"
+     id="path3937"
+      />
+  <path
+     d="m 9.3380006,15.646942 0.5200979,1.406947"
+     id="path3939"
+      />
+  <path
+     d="M 10.880726,11.078632 9.9223592,12.23251"
+     id="path3941"
+      />
+  <path
+     d="M 7.3667146,15.309518 6.40741,16.463742"
+     id="path3943"
+      />
+  <path
+     d="M 12.083587,14.421968 10.610279,14.142472"
+     id="path3945"
+      />
+  <path
+     d="M 6.6787943,13.399556 5.2054864,13.12006"
+     id="path3947"
+      />
+</svg>

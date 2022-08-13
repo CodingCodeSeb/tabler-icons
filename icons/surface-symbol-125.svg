@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg6" class="icon icon-tabler icon-tabler-check" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="path4" d="m17.75 11.5h-11.5l6 10.5 10-18"/>
+ <circle id="circle2437" cx="11.75" cy="8.5" r="1" fill="#000" stroke="none"/>
+ <path id="path7866" d="m6.25 3.9996a1.4937 1.4996 0 1 1 2.9874 0c0 0.44314-0.31144 0.98825-0.60943 1.3931l-2.378 3.1065h2.9874" stroke-width="2"/>
+ <path id="path10213" d="m3.2324 8.5v-6.0001l-1.4824 1.5" stroke-width="2"/>
+ <path id="path11816" d="m14.25 8.5h1.4941a1.4941 1.5 0 1 0 0-3h-1.4941v-3h2.9882" stroke-width="2"/>
+</svg>

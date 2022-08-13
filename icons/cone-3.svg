@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="svg12"
+   class="icon icon-tabler icon-tabler-box"
+   width="24"
+   height="24"
+   fill="none"
+   stroke="currentColor"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   stroke-width="2"
+   version="1.1"
+   viewBox="0 0 24 24"
+   sodipodi:docname="cone-3.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     id="namedview8"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:current-layer="svg12" />
+  <path
+     id="path2"
+     d="M0 0h24v24H0z"
+     fill="none"
+     stroke="none" />
+  <path
+     id="circle353"
+     d="M 18,6.2777778 C 18,8.088058 15.313725,9.5555555 12,9.5555555 8.686275,9.5555555 6,8.088058 6,6.2777778 6,4.4674975 8.686275,3 12,3 c 3.313725,0 6,1.4674975 6,3.2777778 z"
+     style="stroke-width:2" />
+  <path
+     id="line1159"
+     d="M 6,6.2777778 4,16.5 c 0,2.4853 3.5817,4.5 8,4.5 4.4183,0 8,-2.0147 8,-4.5 L 18,6.2777778"
+     sodipodi:nodetypes="ccscc" />
+</svg>

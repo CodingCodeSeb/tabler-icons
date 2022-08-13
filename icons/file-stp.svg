@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg8" class="icon icon-tabler icon-tabler-file" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="m0 0h24v24h-24z" fill="none" stroke="none"/>
+ <path id="path4" d="m15.5 3v4a1 1 0 0 0 1 1h4"/>
+ <path id="path6" d="m6.5 13v-8c0-1.1046 0.89543-2 2-2h7l5 5v11"/>
+ <path id="path2476" d="m3 20.474c0.24607 0.29527 0.5958 0.63911 1.4895 0.63911s1.4895-0.57328 1.4895-1.2782-0.5958-0.95866-1.4895-1.2782-1.1916-0.93949-1.1916-1.2782c0-0.70557 0.5958-1.2782 1.1916-1.2782s0.89371 0 1.4895 0.63911"/>
+ <line id="line1408" x1="8.5" x2="12.032" y1="16" y2="16"/>
+ <line id="line1410" x1="10.266" x2="10.266" y1="16" y2="21.113"/>
+ <path id="path4446" d="m14.5 21.113v-5.1127h1.7575a1.4379 1.4379 0 0 1 0 2.8759h-1.7575"/>
+</svg>

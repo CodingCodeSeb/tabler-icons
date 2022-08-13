@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg8" class="icon icon-tabler icon-tabler-circle-dot" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="circle6" d="m18.649 14.188a7 7 0 0 1-4.5695 4.4955"/>
+ <circle id="circle139" cx="12" cy="5" r="2"/>
+ <circle id="circle291" cx="12" cy="19" r="2"/>
+ <circle id="circle293" cx="19" cy="12" r="2"/>
+ <circle id="circle295" cx="5" cy="12" r="2"/>
+ <path id="path395" d="m18.649 9.6839a7 7 0 0 0-4.5695-4.4955"/>
+ <path id="path397" d="m5.0796 9.6839a7 7 0 0 1 4.5695-4.4955"/>
+ <path id="path399" d="m5.0796 14.188a7 7 0 0 0 4.5695 4.4955"/>
+</svg>
