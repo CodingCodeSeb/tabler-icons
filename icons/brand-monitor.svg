@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="icon icon-tabler icon-tabler-alert-circle"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="currentColor"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg10"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs14" />
+  <path
+     d="M0 0h24v24H0z"
+     id="path2"
+     style="stroke:none" />
+  <circle
+     cx="12"
+     cy="12"
+     r="9"
+     id="circle4" />
+  <path
+     id="rect931"
+     d="m 9.4815519,7.5786669 c -1.4167294,-1e-7 -2.5610785,1.1216497 -2.5986673,2.5289821 -0.00112,5.61e-4 -0.00219,0.0014 -0.00219,0.0028 v 0.06859 5.125454 c -6e-7,0.0019 0.00194,0.0033 0.00384,0.0033 h 5.1934934 5.201173 V 10.17899 10.10711 h -0.0017 C 17.239631,8.7000309 16.09538,7.5786767 14.678832,7.5786767 c -1.416546,0 -2.385875,1.7384599 -2.598666,2.1070276 C 11.877509,9.3346145 10.898089,7.5786767 9.4815433,7.5786767 Z" />
+  <path
+     d="M 12.080211,9.6857043 8.0671171,15.2851"
+     id="path2306" />
+  <path
+     d="M 17.137072,9.6857043 13.123978,15.2851"
+     id="path3327" />
+</svg>

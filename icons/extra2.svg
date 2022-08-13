@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="icon icon-tabler icon-tabler-float-left"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="currentColor"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg549"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs553" />
+  <path
+     stroke="none"
+     d="M0 0h24v24H0z"
+     fill="none"
+     id="path537" />
+  <line
+     x1="14"
+     y1="16"
+     x2="20"
+     y2="16"
+     id="line541" />
+  <line
+     x1="14"
+     y1="12"
+     x2="20"
+     y2="12"
+     id="line543" />
+  <line
+     x1="4"
+     y1="8"
+     x2="20"
+     y2="8"
+     id="line545" />
+  <line
+     x1="4"
+     y1="4"
+     x2="20"
+     y2="4"
+     id="line547" />
+  <line
+     x1="14"
+     y1="20"
+     x2="20"
+     y2="20"
+     id="line954" />
+  <path
+     d="m 4.8888329,13.927379 a 2,2 0 1 1 4,0 c 0,0.591 -0.417,1.318 -0.816,1.858 l -3.184,4.143 h 4"
+     id="path2722" />
+</svg>

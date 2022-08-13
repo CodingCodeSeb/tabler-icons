@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   class="icon icon-tabler icon-tabler-layout-grid-add"
+   width="24"
+   height="24"
+   viewBox="0 0 24 24"
+   stroke-width="2"
+   stroke="currentColor"
+   fill="none"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   version="1.1"
+   id="svg144"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs148" />
+  <path
+     stroke="none"
+     d="M0 0h24v24H0z"
+     fill="none"
+     id="path134" />
+  <rect
+     x="4"
+     y="4"
+     width="6"
+     height="6"
+     rx="1"
+     id="rect136" />
+  <rect
+     x="14"
+     y="4"
+     width="6"
+     height="6"
+     rx="1"
+     id="rect138" />
+  <rect
+     x="4"
+     y="14"
+     width="6"
+     height="6"
+     rx="1"
+     id="rect140" />
+  <path
+     d="m 21,16.5 h -7 m 3,-3 -3,3 3,3"
+     id="path6-7" />
+</svg>

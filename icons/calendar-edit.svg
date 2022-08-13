@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg475" class="icon icon-tabler icon-tabler-calendar" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path461" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="rect463" d="m20 11v8c0 1.108-0.892 2-2 2h-12c-1.108 0-2-0.892-2-2v-12c0-1.108 0.892-2 2-2h6"/>
+ <line id="line467" x1="8" x2="8" y1="3" y2="7"/>
+ <path id="line469" d="m4 11h2.5"/>
+ <path id="path149" d="m20.385 6.6226a2.1001 2.1001 0 0 0-2.97-2.97l-8.415 8.385v3h3z"/>
+ <path id="path151" d="m16 5.0375 3 3"/>
+</svg>

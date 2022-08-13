@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg26" class="icon icon-tabler icon-tabler-cpu-off" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="path24" d="m18.571 4.4289-4.0496 4.0496m-2.25 2.25-1.5429 1.5429m-2.25 2.25-4.0496 4.0496"/>
+ <path id="rect315" d="m12.207 20.693c-0.39174 0.39174-1.0225 0.39174-1.4142 0l-8.4853-8.4853c-0.39174-0.39174-0.39174-1.0225 0-1.4142l8.4853-8.4853c0.39174-0.39174 1.0225-0.39174 1.4142 0l8.4853 8.4853c0.39174 0.39174 0.39174 1.0225 0 1.4142l-0.37752 0.37752"/>
+ <path id="path187" d="m15.444 15.948 4.4327 4.4389c1.3639 1.3641 3.4082-0.68297 2.0442-2.0471l-4.4327-4.4389c-2.7278-2.731-6.8163 1.3632-4.0885 4.0942l4.4327 4.4389" stroke-width="2"/>
+</svg>
