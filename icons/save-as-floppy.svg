@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg833" class="icon icon-tabler icon-tabler-device-floppy" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path825" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="path827" d="m4.5 9h7.5l3 3v7.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5" />
+ <circle id="circle829" cx="9" cy="16.5" r="1.5" />
+ <polyline id="polyline831" transform="matrix(.75 0 0 .75 6.1963e-7 6)" points="14 4 14 8 8 8 8 4" />
+ <path id="path956" d="m4.5 9h7.5l3 3v7.5a1.5 1.5 0 0 1-1.5 1.5h-9a1.5 1.5 0 0 1-1.5-1.5v-9a1.5 1.5 0 0 1 1.5-1.5" />
+ <circle id="ellipse958" cx="9" cy="16.5" r="1.5" />
+ <polyline id="polyline960" transform="matrix(.75 0 0 .75 6.1963e-7 6)" points="14 4 14 8 8 8 8 4"/>
+ <path id="path963" d="m10.5 3h7.5l3 3v7.5c-1e-6 0.82843-0.67157 1.5-1.5 1.5h-2m-8.5-8.5v-2c0-0.82843 0.67157-1.5 1.5-1.5"/>
+ <path id="circle965" d="m15.584 9.1179c0.17946 0.075904 0.34107 0.18574 0.47679 0.32146 0.13572 0.13572 0.24556 0.29733 0.32146 0.47679"/>
+ <polyline id="polyline967" transform="matrix(.75 0 0 .75 6 7e-7)" points="14 4 14 8 8 8 8 4"/>
+</svg>

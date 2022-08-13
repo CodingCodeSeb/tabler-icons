@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg6" class="icon icon-tabler icon-tabler-battery" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="path4" d="m16.532 3.932 3.5355-2.1213 2.1214 2.1214-2.1213 3.5355-1.7678 0.35355-0.7513 0.7513m-5.9662 10.209-2.8284 2.8284c-0.78105 0.78105-2.0474 0.78105-2.8284 0l-3.5355-3.5355c-0.78105-0.78105-0.78105-2.0474 0-2.8284"/>
+ <path id="path401" d="m5.3955 16.484-0.17678 0.17678"/>
+ <path id="path403" d="m8.7538 17.367-1.4142 1.4142"/>
+ <path id="path423" d="m6.9705 9.9705h3v-3l-3.5-3.5a6 6 0 0 1 8 8l6 6a2.1213 2.1213 0 0 1-3 3l-6-6a6 6 0 0 1-8-8l3.5 3.5"/>
+</svg>
