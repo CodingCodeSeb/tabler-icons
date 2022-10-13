@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg36" class="icon icon-tabler icon-tabler-live-photo" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <circle id="circle6" cx="12" cy="12" r="5"/>
+ <line id="line20" x1="12" x2="12" y1="4.75" y2="4.76"/>
+ <line id="line34" x1="12" x2="12" y1="19.25" y2="19.26"/>
+ <circle id="circle323" cx="12" cy="12" r="9.5"/>
+ <line id="line325" x1="4.745" x2="4.755" y1="12.005" y2="12.005"/>
+ <line id="line327" x1="19.245" x2="19.255" y1="12.005" y2="12.005"/>
+ <line id="line329" x1="15.628" x2="15.622" y1="5.722" y2="5.7306"/>
+ <line id="line331" x1="8.3775" x2="8.3725" y1="18.279" y2="18.288"/>
+ <line id="line333" x1="5.717" x2="5.7256" y1="8.3775" y2="8.3825"/>
+ <line id="line335" x1="18.274" x2="18.283" y1="15.628" y2="15.633"/>
+ <line id="line337" x1="18.283" x2="18.274" y1="8.3775" y2="8.3825"/>
+ <line id="line339" x1="5.7256" x2="5.717" y1="15.628" y2="15.632"/>
+ <line id="line341" x1="8.3725" x2="8.3775" y1="5.722" y2="5.7306"/>
+ <line id="line343" x1="15.622" x2="15.628" y1="18.279" y2="18.288"/>
+</svg>
