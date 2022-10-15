@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg36" class="icon icon-tabler icon-tabler-live-photo" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <circle id="circle6" cx="12" cy="12" r="6"/>
+ <path id="rect355" d="m10.5 6.2167v-2.8668c0-0.31389 0.2527-0.56658 0.56658-0.56658h1.8668c0.31389 0 0.56658 0.2527 0.56658 0.56658v2.8668" fill="currentColor" stroke="none"/>
+ <path id="path454" d="m10.5 17.783v2.8668c0 0.31389 0.2527 0.56658 0.56658 0.56658h1.8668c0.31389 0 0.56658-0.2527 0.56658-0.56658v-2.8668" fill="currentColor" stroke="none"/>
+ <path id="path456" d="m17.783 10.5h2.8668c0.31389 0 0.56658 0.2527 0.56658 0.56658v1.8668c0 0.31389-0.2527 0.56658-0.56658 0.56658h-2.8668" fill="currentColor" stroke="none"/>
+ <path id="path458" d="m6.2167 10.5h-2.8668c-0.31389 0-0.56658 0.2527-0.56658 0.56658v1.8668c0 0.31389 0.2527 0.56658 0.56658 0.56658h2.8668" fill="currentColor" stroke="none"/>
+ <path id="path460" d="m15.029 6.8499 2.0272-2.0272c0.22195-0.22195 0.57932-0.22195 0.80127 7e-7l1.3201 1.3201c0.22195 0.22195 0.22195 0.57932 0 0.80127l-2.0272 2.0272" fill="currentColor" stroke="none"/>
+ <path id="path462" d="m6.8499 15.029-2.0272 2.0272c-0.22195 0.22195-0.22195 0.57932 7e-7 0.80127l1.3201 1.3201c0.22195 0.22195 0.57932 0.22195 0.80127 0l2.0272-2.0272" fill="currentColor" stroke="none"/>
+ <path id="path464" d="m17.15 15.029 2.0272 2.0272c0.22195 0.22195 0.22195 0.57932 0 0.80127l-1.3201 1.3201c-0.22195 0.22195-0.57932 0.22195-0.80127 0l-2.0272-2.0272" fill="currentColor" stroke="none"/>
+ <path id="path466" d="m8.9713 6.8499-2.0272-2.0272c-0.22195-0.22195-0.57932-0.22195-0.80127 7e-7l-1.3201 1.3201c-0.22195 0.22195-0.22195 0.57932 0 0.80127l2.0272 2.0272" fill="currentColor" stroke="none"/>
+ <path id="path468" d="m10.5 6.2833v1.8668c0 0.31389 0.2527 0.56658 0.56658 0.56658h1.8668c0.31389 0 0.56658-0.2527 0.56658-0.56658v-1.8668" fill="currentColor" stroke="none"/>
+</svg>
