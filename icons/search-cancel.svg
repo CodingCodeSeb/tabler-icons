@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg8" class="icon icon-tabler icon-tabler-search" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path2" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="circle4" d="m3.5501 12.725c-0.35422-0.83747-0.55009-1.7582-0.55009-2.7247 0-3.866 3.134-7 7-7 3.866 0 7 3.134 7 7 0 1.933-0.7835 3.683-2.0503 4.9497-0.63338 0.63338-1.3876 1.1459-2.225 1.5002-0.41873 0.17711-0.85829 0.31463-1.314 0.40788"/>
+ <line id="line6" x1="21" x2="15" y1="21" y2="15"/>
+ <path id="path197" d="m3 21 5-5m-5 0 5 5"/>
+</svg>
