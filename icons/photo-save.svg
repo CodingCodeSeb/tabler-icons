@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg195" class="icon icon-tabler icon-tabler-photo-shield" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path id="path185" d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path id="path187" d="M15 8h.01"/>
+ <path id="path189" d="m11 20h-4c-1.6569 0-3-1.3431-3-3v-10c0-1.6569 1.3431-3 3-3h10c1.6569 0 3 1.3431 3 3v3.5"/>
+ <path id="path191" d="m4 15 4-4c0.928-0.893 2.072-0.893 3 0l1.0169 1.0169"/>
+ <path id="path187-4" d="m15 14h5l2 2v5a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1"/>
+ <circle id="circle189" cx="18" cy="18.5" r="1.5" fill="currentColor" stroke="none"/>
+ <rect id="rect1837" x="16" y="14" width="3" height="2" ry=".58991" fill="currentColor" fill-rule="evenodd" stroke="none"/>
+</svg>
