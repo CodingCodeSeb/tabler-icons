@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="icon icon-tabler icon-tabler-shopping-cart-x" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <circle cx="6" cy="19" r="2"/>
+ <circle cx="17" cy="19" r="2"/>
+ <path d="m17 17h-11v-14h-2"/>
+ <path d="m6 5 6.1555 0.4394m7.059 6.0611-0.2145 1.4995h-13"/>
+ <path d="m20.475 3.0251-4.9497 4.9497m0-4.2426v4.2426h4.2426"/>
+</svg>
