@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="icon icon-tabler icon-tabler-table-plus" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <path d="m5 17.5h-0.5c-1.1046 0-2-0.89543-2-2v-11c0-1.1046 0.89543-2 2-2h14c1.1046 0 2 0.89543 2 2v6"/>
+ <path d="m2.5 8.5h9"/>
+ <path d="m9 2.5v9"/>
+ <path d="m14 10.5-5.6865 9.4346a1.343 1.3347 0 0 0 1.1478 2.0017h11.374a1.343 1.3347 0 0 0 1.1478-2.0017l-5.6871-9.4346a1.343 1.3347 0 0 0-2.2957 0z"/>
+ <path d="m13.946 16.202 1.5-1.6667v5"/>
+</svg>
