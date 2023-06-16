@@ -1,13 +1,13 @@
 /*!
- * Tabler Icons 2.20.0 by tabler - https://tabler.io
+ * Tabler Icons 2.22.0 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/master/LICENSE
  */
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.eot?v2.20.0");
-  src: url("./fonts/tabler-icons.eot?#iefix-v2.20.0") format("embedded-opentype"), url("./fonts/tabler-icons.woff2?v2.20.0") format("woff2"), url("./fonts/tabler-icons.woff?") format("woff"), url("./fonts/tabler-icons.ttf?v2.20.0") format("truetype");
+  src: url("./fonts/tabler-icons.eot?v2.22.0");
+  src: url("./fonts/tabler-icons.eot?#iefix-v2.22.0") format("embedded-opentype"), url("./fonts/tabler-icons.woff2?v2.22.0") format("woff2"), url("./fonts/tabler-icons.woff?") format("woff"), url("./fonts/tabler-icons.ttf?v2.22.0") format("truetype");
 }
 .ti {
   font-family: "tabler-icons" !important;
@@ -390,12 +390,24 @@
   content: "\f710";
 }
 
+.ti-align-box-center-bottom:before {
+  content: "\facb";
+}
+
 .ti-align-box-center-middle:before {
   content: "\f79f";
 }
 
 .ti-align-box-center-middle-filled:before {
   content: "\f7d4";
+}
+
+.ti-align-box-center-stretch:before {
+  content: "\facc";
+}
+
+.ti-align-box-center-top:before {
+  content: "\facd";
 }
 
 .ti-align-box-left-bottom:before {
@@ -412,6 +424,10 @@
 
 .ti-align-box-left-middle-filled:before {
   content: "\f712";
+}
+
+.ti-align-box-left-stretch:before {
+  content: "\face";
 }
 
 .ti-align-box-left-top:before {
@@ -436,6 +452,10 @@
 
 .ti-align-box-right-middle-filled:before {
   content: "\f7d5";
+}
+
+.ti-align-box-right-stretch:before {
+  content: "\facf";
 }
 
 .ti-align-box-right-top:before {
@@ -1492,6 +1512,10 @@
 
 .ti-backpack-off:before {
   content: "\f3c2";
+}
+
+.ti-backslash:before {
+  content: "\fab9";
 }
 
 .ti-backspace:before {
@@ -3046,6 +3070,10 @@
   content: "\f7b0";
 }
 
+.ti-brand-kbin:before {
+  content: "\fad0";
+}
+
 .ti-brand-kick:before {
   content: "\fa23";
 }
@@ -3356,6 +3384,10 @@
 
 .ti-brand-revolut:before {
   content: "\f4da";
+}
+
+.ti-brand-rumble:before {
+  content: "\fad1";
 }
 
 .ti-brand-rust:before {
@@ -4116,6 +4148,10 @@
 
 .ti-calendar-question:before {
   content: "\f82d";
+}
+
+.ti-calendar-repeat:before {
+  content: "\fad2";
 }
 
 .ti-calendar-search:before {
@@ -12426,6 +12462,10 @@
   content: "\eebe";
 }
 
+.ti-piano:before {
+  content: "\fad3";
+}
+
 .ti-picture-in-picture:before {
   content: "\ed35";
 }
@@ -13256,6 +13296,70 @@
 
 .ti-resize:before {
   content: "\eecf";
+}
+
+.ti-rewind-backward-10:before {
+  content: "\faba";
+}
+
+.ti-rewind-backward-15:before {
+  content: "\fabb";
+}
+
+.ti-rewind-backward-20:before {
+  content: "\fabc";
+}
+
+.ti-rewind-backward-30:before {
+  content: "\fabd";
+}
+
+.ti-rewind-backward-40:before {
+  content: "\fabe";
+}
+
+.ti-rewind-backward-5:before {
+  content: "\fabf";
+}
+
+.ti-rewind-backward-50:before {
+  content: "\fac0";
+}
+
+.ti-rewind-backward-60:before {
+  content: "\fac1";
+}
+
+.ti-rewind-forward-10:before {
+  content: "\fac2";
+}
+
+.ti-rewind-forward-15:before {
+  content: "\fac3";
+}
+
+.ti-rewind-forward-20:before {
+  content: "\fac4";
+}
+
+.ti-rewind-forward-30:before {
+  content: "\fac5";
+}
+
+.ti-rewind-forward-40:before {
+  content: "\fac6";
+}
+
+.ti-rewind-forward-5:before {
+  content: "\fac7";
+}
+
+.ti-rewind-forward-50:before {
+  content: "\fac8";
+}
+
+.ti-rewind-forward-60:before {
+  content: "\fac9";
 }
 
 .ti-ribbon-health:before {
@@ -14108,6 +14212,10 @@
 
 .ti-skateboard-off:before {
   content: "\f42b";
+}
+
+.ti-skateboarding:before {
+  content: "\faca";
 }
 
 .ti-skull:before {
@@ -15596,6 +15704,42 @@
 
 .ti-tilt-shift-off:before {
   content: "\f1b3";
+}
+
+.ti-time-duration-0:before {
+  content: "\fad4";
+}
+
+.ti-time-duration-10:before {
+  content: "\fad5";
+}
+
+.ti-time-duration-15:before {
+  content: "\fad6";
+}
+
+.ti-time-duration-30:before {
+  content: "\fad7";
+}
+
+.ti-time-duration-45:before {
+  content: "\fad8";
+}
+
+.ti-time-duration-5:before {
+  content: "\fad9";
+}
+
+.ti-time-duration-60:before {
+  content: "\fada";
+}
+
+.ti-time-duration-90:before {
+  content: "\fadb";
+}
+
+.ti-time-duration-off:before {
+  content: "\fadc";
 }
 
 .ti-timeline:before {
