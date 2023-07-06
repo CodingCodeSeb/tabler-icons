@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="icon icon-tabler icon-tabler-circle" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <circle cx="12" cy="12" r="9"/>
+ <circle cx="12" cy="12" r="4" stroke-width="2"/>
+ <path d="M 12.03603,3 13,5.5"/>
+ <path d="m12 21-0.96397-2.5"/>
+ <path d="m21.018 12.018-2.5 0.96397"/>
+ <path d="m3.018 11.982 2.5-0.96397"/>
+ <path d="m18.395 5.6488-1.0861 2.4494"/>
+ <path d="m5.6413 18.351 1.0861-2.4494"/>
+ <path d="m18.369 18.377-2.4494-1.0861"/>
+ <path d="m5.6668 5.6233 2.4494 1.0861"/>
+</svg>
