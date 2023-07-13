@@ -419,6 +419,13 @@
     "version": "1.93",
     "unicode": "f3a2"
   }, 
+  "air-traffic-control": {
+    "name": "air-traffic-control",
+    "category": "Map",
+    "tags": ["air", "traffic", "control", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb01"
+  }, 
   "alarm-filled": {
     "name": "alarm-filled",
     "category": "Filled",
@@ -5515,6 +5522,13 @@
     "version": "2.23",
     "unicode": "fadf"
   }, 
+  "brand-minecraft": {
+    "name": "brand-minecraft",
+    "category": "Brand",
+    "tags": ["brand", "minecraft", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faef"
+  }, 
   "brand-miniprogram": {
     "name": "brand-miniprogram",
     "category": "Brand",
@@ -6229,6 +6243,13 @@
     "version": "1.110",
     "unicode": "f5a3"
   }, 
+  "brand-threads": {
+    "name": "brand-threads",
+    "category": "Brand",
+    "tags": ["brand", "threads", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb02"
+  }, 
   "brand-threejs": {
     "name": "brand-threejs",
     "category": "Brand",
@@ -6683,6 +6704,13 @@
     "tags": ["bread", "food", "breakfast", "sandwich", "toast", "baking", "icon", "stroke", "outline"],
     "version": "1.48",
     "unicode": "efa3"
+  }, 
+  "briefcase-2": {
+    "name": "briefcase-2",
+    "category": "",
+    "tags": ["briefcase", "2", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb03"
   }, 
   "briefcase-off": {
     "name": "briefcase-off",
@@ -8286,6 +8314,34 @@
     "tags": ["chess", "game", "strategy", "pawn", "figure", "icon", "stroke", "outline"],
     "version": "1.91",
     "unicode": "f382"
+  }, 
+  "chevron-compact-down": {
+    "name": "chevron-compact-down",
+    "category": "Arrows",
+    "tags": ["chevron", "compact", "down", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faf0"
+  }, 
+  "chevron-compact-left": {
+    "name": "chevron-compact-left",
+    "category": "Arrows",
+    "tags": ["chevron", "compact", "left", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faf1"
+  }, 
+  "chevron-compact-right": {
+    "name": "chevron-compact-right",
+    "category": "Arrows",
+    "tags": ["chevron", "compact", "right", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faf2"
+  }, 
+  "chevron-compact-up": {
+    "name": "chevron-compact-up",
+    "category": "Arrows",
+    "tags": ["chevron", "compact", "up", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faf3"
   }, 
   "chevron-down-left": {
     "name": "chevron-down-left",
@@ -10100,6 +10156,13 @@
     "version": "1.39",
     "unicode": "ee45"
   }, 
+  "column-remove": {
+    "name": "column-remove",
+    "category": "Database",
+    "tags": ["column", "remove", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faf4"
+  }, 
   "columns-1": {
     "name": "columns-1",
     "category": "Text",
@@ -10862,6 +10925,13 @@
     "tags": ["currency", "euro", "euro", "eur", "trade", "finance", "europe", "eu", "money", "banknote", "pay", "icon", "stroke", "outline"],
     "version": "1.3",
     "unicode": "eb85"
+  }, 
+  "currency-florin": {
+    "name": "currency-florin",
+    "category": "Currency",
+    "tags": ["currency", "florin", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faf5"
   }, 
   "currency-forint": {
     "name": "currency-forint",
@@ -13803,6 +13873,27 @@
     "version": "1.55",
     "unicode": "f027"
   }, 
+  "escalator-down": {
+    "name": "escalator-down",
+    "category": "Map",
+    "tags": ["escalator", "down", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb04"
+  }, 
+  "escalator-up": {
+    "name": "escalator-up",
+    "category": "Map",
+    "tags": ["escalator", "up", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb05"
+  }, 
+  "escalator": {
+    "name": "escalator",
+    "category": "Map",
+    "tags": ["escalator", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb06"
+  }, 
   "exchange-off": {
     "name": "exchange-off",
     "category": "",
@@ -14475,6 +14566,167 @@
     "version": "1.56",
     "unicode": "f040"
   }, 
+  "file-type-bmp": {
+    "name": "file-type-bmp",
+    "category": "Document",
+    "tags": ["file", "type", "bmp", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb07"
+  }, 
+  "file-type-css": {
+    "name": "file-type-css",
+    "category": "Document",
+    "tags": ["file", "type", "css", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb08"
+  }, 
+  "file-type-csv": {
+    "name": "file-type-csv",
+    "category": "Document",
+    "tags": ["file", "type", "csv", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb09"
+  }, 
+  "file-type-doc": {
+    "name": "file-type-doc",
+    "category": "Document",
+    "tags": ["file", "type", "doc", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb0a"
+  }, 
+  "file-type-docx": {
+    "name": "file-type-docx",
+    "category": "Document",
+    "tags": ["file", "type", "docx", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb0b"
+  }, 
+  "file-type-html": {
+    "name": "file-type-html",
+    "category": "Document",
+    "tags": ["file", "type", "html", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb0c"
+  }, 
+  "file-type-jpg": {
+    "name": "file-type-jpg",
+    "category": "Document",
+    "tags": ["file", "type", "jpg", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb0d"
+  }, 
+  "file-type-js": {
+    "name": "file-type-js",
+    "category": "Document",
+    "tags": ["file", "type", "js", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb0e"
+  }, 
+  "file-type-jsx": {
+    "name": "file-type-jsx",
+    "category": "Document",
+    "tags": ["file", "type", "jsx", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb0f"
+  }, 
+  "file-type-pdf": {
+    "name": "file-type-pdf",
+    "category": "Document",
+    "tags": ["file", "type", "pdf", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb10"
+  }, 
+  "file-type-php": {
+    "name": "file-type-php",
+    "category": "Document",
+    "tags": ["file", "type", "php", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb11"
+  }, 
+  "file-type-png": {
+    "name": "file-type-png",
+    "category": "Document",
+    "tags": ["file", "type", "png", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb12"
+  }, 
+  "file-type-ppt": {
+    "name": "file-type-ppt",
+    "category": "Document",
+    "tags": ["file", "type", "ppt", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb13"
+  }, 
+  "file-type-rs": {
+    "name": "file-type-rs",
+    "category": "Document",
+    "tags": ["file", "type", "rs", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb14"
+  }, 
+  "file-type-sql": {
+    "name": "file-type-sql",
+    "category": "Document",
+    "tags": ["file", "type", "sql", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb15"
+  }, 
+  "file-type-svg": {
+    "name": "file-type-svg",
+    "category": "Document",
+    "tags": ["file", "type", "svg", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb16"
+  }, 
+  "file-type-ts": {
+    "name": "file-type-ts",
+    "category": "Document",
+    "tags": ["file", "type", "ts", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb17"
+  }, 
+  "file-type-tsx": {
+    "name": "file-type-tsx",
+    "category": "Document",
+    "tags": ["file", "type", "tsx", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb18"
+  }, 
+  "file-type-txt": {
+    "name": "file-type-txt",
+    "category": "Document",
+    "tags": ["file", "type", "txt", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb19"
+  }, 
+  "file-type-vue": {
+    "name": "file-type-vue",
+    "category": "Document",
+    "tags": ["file", "type", "vue", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb1a"
+  }, 
+  "file-type-xls": {
+    "name": "file-type-xls",
+    "category": "Document",
+    "tags": ["file", "type", "xls", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb1b"
+  }, 
+  "file-type-xml": {
+    "name": "file-type-xml",
+    "category": "Document",
+    "tags": ["file", "type", "xml", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb1c"
+  }, 
+  "file-type-zip": {
+    "name": "file-type-zip",
+    "category": "Document",
+    "tags": ["file", "type", "zip", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb1d"
+  }, 
   "file-typography": {
     "name": "file-typography",
     "category": "Document",
@@ -14628,6 +14880,13 @@
     "tags": ["fingerprint", "indentify", "mark", "surface", "security", "access", "icon", "stroke", "outline"],
     "version": "1.6",
     "unicode": "ebd1"
+  }, 
+  "fire-extinguisher": {
+    "name": "fire-extinguisher",
+    "category": "",
+    "tags": ["fire", "extinguisher", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faf6"
   }, 
   "fire-hydrant-off": {
     "name": "fire-hydrant-off",
@@ -15006,6 +15265,13 @@
     "tags": ["folder", "off", "cancel", "no", "directory", "dir", "icon", "stroke", "outline"],
     "version": "1.24",
     "unicode": "ed14"
+  }, 
+  "folder-open": {
+    "name": "folder-open",
+    "category": "",
+    "tags": ["folder", "open", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faf7"
   }, 
   "folder-pause": {
     "name": "folder-pause",
@@ -15930,6 +16196,13 @@
     "tags": ["hash", "hashtag", "#", "instagram", "icon", "stroke", "outline"],
     "version": "1.0",
     "unicode": "eabc"
+  }, 
+  "haze-moon": {
+    "name": "haze-moon",
+    "category": "",
+    "tags": ["haze", "moon", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faf8"
   }, 
   "haze": {
     "name": "haze",
@@ -17639,6 +17912,13 @@
     "version": "1.48",
     "unicode": "efab"
   }, 
+  "lane": {
+    "name": "lane",
+    "category": "",
+    "tags": ["lane", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faf9"
+  }, 
   "language-hiragana": {
     "name": "language-hiragana",
     "category": "Text",
@@ -18345,6 +18625,13 @@
     "tags": ["list", "search", "find", "agenda", "shopping", "icon", "stroke", "outline"],
     "version": "1.39",
     "unicode": "eea9"
+  }, 
+  "list-tree": {
+    "name": "list-tree",
+    "category": "",
+    "tags": ["list", "tree", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "fafa"
   }, 
   "list": {
     "name": "list",
@@ -19584,6 +19871,13 @@
     "tags": ["menu", "2", "bars", "hamburger", "navigation", "burger", "icon", "stroke", "outline"],
     "version": "1.11",
     "unicode": "ec42"
+  }, 
+  "menu-deep": {
+    "name": "menu-deep",
+    "category": "",
+    "tags": ["menu", "deep", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "fafb"
   }, 
   "menu-order": {
     "name": "menu-order",
@@ -21888,6 +22182,13 @@
     "version": "2.22",
     "unicode": "fad3"
   }, 
+  "pick": {
+    "name": "pick",
+    "category": "",
+    "tags": ["pick", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "fafc"
+  }, 
   "picture-in-picture-off": {
     "name": "picture-in-picture-off",
     "category": "Media",
@@ -22903,6 +23204,13 @@
     "version": "1.49",
     "unicode": "efbe"
   }, 
+  "quotes": {
+    "name": "quotes",
+    "category": "Text",
+    "tags": ["quotes", "chat", "message", "text", "punctuation", "quotation", "comment", "icon", "stroke", "outline"],
+    "version": "2.25",
+    "unicode": "fb1e"
+  }, 
   "radar-2": {
     "name": "radar-2",
     "category": "Map",
@@ -23358,6 +23666,13 @@
     "version": "1.39",
     "unicode": "eecf"
   }, 
+  "restore": {
+    "name": "restore",
+    "category": "",
+    "tags": ["restore", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "fafd"
+  }, 
   "rewind-backward-10": {
     "name": "rewind-backward-10",
     "category": "Media",
@@ -23749,6 +24064,13 @@
     "tags": ["row", "insert", "top", "table", "layout", "add", "below", "macro", "excel", "icon", "stroke", "outline"],
     "version": "1.39",
     "unicode": "eed1"
+  }, 
+  "row-remove": {
+    "name": "row-remove",
+    "category": "Database",
+    "tags": ["row", "remove", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "fafe"
   }, 
   "rss": {
     "name": "rss",
@@ -27054,6 +27376,13 @@
     "version": "1.75",
     "unicode": "f25b"
   }, 
+  "table-column": {
+    "name": "table-column",
+    "category": "Database",
+    "tags": ["table", "column", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "faff"
+  }, 
   "table-down": {
     "name": "table-down",
     "category": "Database",
@@ -27116,6 +27445,13 @@
     "tags": ["table", "plus", "icon", "stroke", "outline"],
     "version": "2.13",
     "unicode": "fa1f"
+  }, 
+  "table-row": {
+    "name": "table-row",
+    "category": "Database",
+    "tags": ["table", "row", "icon", "stroke", "outline"],
+    "version": "2.24",
+    "unicode": "fb00"
   }, 
   "table-share": {
     "name": "table-share",
