@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="icon icon-tabler icon-tabler-git-merge" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ <path d="M0 0h24v24H0z" fill="none" stroke="none"/>
+ <circle transform="rotate(30)" cx="14.246" cy="7.5124" r="2"/>
+ <path d="m14.581 3.2367-5 8.6602m-2 3.4641-3.25 5.6291"/>
+ <path d="m10.313 14.629 3.3658 1.9433"/>
+ <path d="m19 19m-3 0a3 3 0 1 0 6 0 3 3 0 1 0-6 0"/>
+ <path d="m17 21 4-4"/>
+</svg>
