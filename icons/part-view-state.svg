@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="svg249" class="icon icon-tabler icon-tabler-eye-off" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
  <path id="path241" d="M0 0h24v24H0z" fill="none" stroke="none"/>
- <line id="line243" x1="2.95" x2="11.05" y1="3" y2="11" stroke-width="2"/>
- <path id="path245" d="m6.0036 6.2332a0.90019 0.88907 0 0 0 1.2726 1.2578" stroke-width="2"/>
- <path id="path247" d="m5.3134 4.0511a4.2597 4.2071 0 0 1 1.1867-0.16222c1.8 0 3.2999 1.0369 4.5 3.1111-0.3501 0.60489-0.7254 1.1218-1.1264 1.5502m-0.963 0.82711c-0.73395 0.48889-1.5368 0.73378-2.4107 0.73378-1.8 0-3.2999-1.0369-4.5-3.1111 0.61605-1.0644 1.3109-1.8556 2.0844-2.3738" stroke-width="2"/>
- <path id="rect4" d="m14 2.5h4v4h4v4h-8z" stroke-width="2"/>
- <ellipse id="circle4" cx="6.5" cy="18" rx=".9" ry=".85714" stroke-width="2"/>
- <path id="path6" d="m11 18c-1.2002 2.0001-2.7 3-4.5 3s-3.2999-0.99986-4.5-3c1.2002-2.0001 2.7-3 4.5-3s3.2999 0.99986 4.5 3" stroke-width="2"/>
- <path id="path598" d="m14 13.5h4v4h4v4h-8z" stroke-width="2"/>
+ <line id="line243" x1="2.95" x2="11.05" y1="3" y2="11"/>
+ <path id="path245" d="m6.0036 6.2332a0.90019 0.88907 0 0 0 1.2726 1.2578"/>
+ <path id="path247" d="m5.3134 4.0511a4.2597 4.2071 0 0 1 1.1867-0.16222c1.8 0 3.2999 1.0369 4.5 3.1111-0.3501 0.60489-0.7254 1.1218-1.1264 1.5502m-0.963 0.82711c-0.73395 0.48889-1.5368 0.73378-2.4107 0.73378-1.8 0-3.2999-1.0369-4.5-3.1111 0.61605-1.0644 1.3109-1.8556 2.0844-2.3738"/>
+ <path id="rect4" d="m14 2.5h4v4h4v4h-8z"/>
+ <ellipse id="circle4" cx="6.5" cy="18" rx=".9" ry=".85714"/>
+ <path id="path6" d="m11 18c-1.2002 2.0001-2.7 3-4.5 3s-3.2999-0.99986-4.5-3c1.2002-2.0001 2.7-3 4.5-3s3.2999 0.99986 4.5 3"/>
+ <path id="path598" d="m14 13.5h4v4h4v4h-8z"/>
 </svg>
