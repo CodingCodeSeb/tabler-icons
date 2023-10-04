@@ -1,13 +1,13 @@
 /*!
- * Tabler Icons 2.35.0 by tabler - https://tabler.io
+ * Tabler Icons 2.38.0 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/master/LICENSE
  */
 @font-face {
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("./fonts/tabler-icons.eot?v2.35.0");
-  src: url("./fonts/tabler-icons.eot?#iefix-v2.35.0") format("embedded-opentype"), url("./fonts/tabler-icons.woff2?v2.35.0") format("woff2"), url("./fonts/tabler-icons.woff?") format("woff"), url("./fonts/tabler-icons.ttf?v2.35.0") format("truetype");
+  src: url("./fonts/tabler-icons.eot?v2.38.0");
+  src: url("./fonts/tabler-icons.eot?#iefix-v2.38.0") format("embedded-opentype"), url("./fonts/tabler-icons.woff2?v2.38.0") format("woff2"), url("./fonts/tabler-icons.woff?") format("woff"), url("./fonts/tabler-icons.ttf?v2.38.0") format("truetype");
 }
 .ti {
   font-family: "tabler-icons" !important;
@@ -272,6 +272,10 @@
 
 .ti-alarm:before {
   content: "\ea04";
+}
+
+.ti-alarm-average:before {
+  content: "\fc9e";
 }
 
 .ti-alarm-filled:before {
@@ -1060,6 +1064,14 @@
 
 .ti-arrow-merge:before {
   content: "\f04e";
+}
+
+.ti-arrow-merge-alt-left:before {
+  content: "\fc9f";
+}
+
+.ti-arrow-merge-alt-right:before {
+  content: "\fca0";
 }
 
 .ti-arrow-merge-both:before {
@@ -1958,6 +1970,10 @@
   content: "\f7e0";
 }
 
+.ti-bed-flat:before {
+  content: "\fca1";
+}
+
 .ti-bed-off:before {
   content: "\f100";
 }
@@ -2166,6 +2182,10 @@
   content: "\f2f2";
 }
 
+.ti-blender:before {
+  content: "\fca2";
+}
+
 .ti-blockquote:before {
   content: "\ee09";
 }
@@ -2196,6 +2216,10 @@
 
 .ti-bmp:before {
   content: "\f3a6";
+}
+
+.ti-body-scan:before {
+  content: "\fca3";
 }
 
 .ti-bold:before {
@@ -2570,6 +2594,14 @@
   content: "\ebcd";
 }
 
+.ti-brackets-angle:before {
+  content: "\fcb2";
+}
+
+.ti-brackets-angle-off:before {
+  content: "\fcb1";
+}
+
 .ti-brackets-contain:before {
   content: "\f1e5";
 }
@@ -2684,6 +2716,10 @@
 
 .ti-brand-asana:before {
   content: "\edc5";
+}
+
+.ti-brand-auth0:before {
+  content: "\fcb3";
 }
 
 .ti-brand-aws:before {
@@ -4240,6 +4276,10 @@
 
 .ti-bulldozer:before {
   content: "\ee1d";
+}
+
+.ti-burger:before {
+  content: "\fcb4";
 }
 
 .ti-bus:before {
@@ -7026,16 +7066,16 @@
   content: "\eb62";
 }
 
-.ti-device-game-pad:before {
-  content: "\fc58";
-}
-
 .ti-device-gamepad:before {
   content: "\eb63";
 }
 
 .ti-device-gamepad-2:before {
   content: "\f1d2";
+}
+
+.ti-device-gamepad-3:before {
+  content: "\fc58";
 }
 
 .ti-device-heart-monitor:before {
@@ -8970,6 +9010,10 @@
   content: "\f12a";
 }
 
+.ti-fingerprint-scan:before {
+  content: "\fcb5";
+}
+
 .ti-fire-extinguisher:before {
   content: "\faf6";
 }
@@ -9426,6 +9470,10 @@
   content: "\f3f0";
 }
 
+.ti-galaxy:before {
+  content: "\fcb6";
+}
+
 .ti-garden-cart:before {
   content: "\f23e";
 }
@@ -9690,12 +9738,28 @@
   content: "\f57f";
 }
 
+.ti-grid-3x3:before {
+  content: "\fca4";
+}
+
+.ti-grid-4x4:before {
+  content: "\fca5";
+}
+
 .ti-grid-dots:before {
   content: "\eaba";
 }
 
+.ti-grid-goldenratio:before {
+  content: "\fca6";
+}
+
 .ti-grid-pattern:before {
   content: "\efc9";
+}
+
+.ti-grid-scan:before {
+  content: "\fca7";
 }
 
 .ti-grill:before {
@@ -10494,6 +10558,10 @@
   content: "\f28a";
 }
 
+.ti-horseshoe:before {
+  content: "\fcb7";
+}
+
 .ti-hotel-service:before {
   content: "\ef80";
 }
@@ -11210,12 +11278,24 @@
   content: "\ec50";
 }
 
+.ti-letter-a-small:before {
+  content: "\fcc7";
+}
+
 .ti-letter-b:before {
   content: "\ec51";
 }
 
+.ti-letter-b-small:before {
+  content: "\fcc8";
+}
+
 .ti-letter-c:before {
   content: "\ec52";
+}
+
+.ti-letter-c-small:before {
+  content: "\fcc9";
 }
 
 .ti-letter-case:before {
@@ -11238,64 +11318,128 @@
   content: "\ec53";
 }
 
+.ti-letter-d-small:before {
+  content: "\fcca";
+}
+
 .ti-letter-e:before {
   content: "\ec54";
+}
+
+.ti-letter-e-small:before {
+  content: "\fccb";
 }
 
 .ti-letter-f:before {
   content: "\ec55";
 }
 
+.ti-letter-f-small:before {
+  content: "\fccc";
+}
+
 .ti-letter-g:before {
   content: "\ec56";
+}
+
+.ti-letter-g-small:before {
+  content: "\fccd";
 }
 
 .ti-letter-h:before {
   content: "\ec57";
 }
 
+.ti-letter-h-small:before {
+  content: "\fcce";
+}
+
 .ti-letter-i:before {
   content: "\ec58";
+}
+
+.ti-letter-i-small:before {
+  content: "\fccf";
 }
 
 .ti-letter-j:before {
   content: "\ec59";
 }
 
+.ti-letter-j-small:before {
+  content: "\fcd0";
+}
+
 .ti-letter-k:before {
   content: "\ec5a";
+}
+
+.ti-letter-k-small:before {
+  content: "\fcd1";
 }
 
 .ti-letter-l:before {
   content: "\ec5b";
 }
 
+.ti-letter-l-small:before {
+  content: "\fcd2";
+}
+
 .ti-letter-m:before {
   content: "\ec5c";
+}
+
+.ti-letter-m-small:before {
+  content: "\fcd3";
 }
 
 .ti-letter-n:before {
   content: "\ec5d";
 }
 
+.ti-letter-n-small:before {
+  content: "\fcd4";
+}
+
 .ti-letter-o:before {
   content: "\ec5e";
+}
+
+.ti-letter-o-small:before {
+  content: "\fcd5";
 }
 
 .ti-letter-p:before {
   content: "\ec5f";
 }
 
+.ti-letter-p-small:before {
+  content: "\fcd6";
+}
+
 .ti-letter-q:before {
   content: "\ec60";
+}
+
+.ti-letter-q-small:before {
+  content: "\fcd7";
 }
 
 .ti-letter-r:before {
   content: "\ec61";
 }
 
+.ti-letter-r-small:before {
+  content: "\fcd8";
+}
+
 .ti-letter-s:before {
   content: "\ec62";
+}
+
+.ti-letter-s-small:before {
+  content: "\fcd9";
 }
 
 .ti-letter-spacing:before {
@@ -11306,28 +11450,56 @@
   content: "\ec63";
 }
 
+.ti-letter-t-small:before {
+  content: "\fcda";
+}
+
 .ti-letter-u:before {
   content: "\ec64";
+}
+
+.ti-letter-u-small:before {
+  content: "\fcdb";
 }
 
 .ti-letter-v:before {
   content: "\ec65";
 }
 
+.ti-letter-v-small:before {
+  content: "\fcdc";
+}
+
 .ti-letter-w:before {
   content: "\ec66";
+}
+
+.ti-letter-w-small:before {
+  content: "\fcdd";
 }
 
 .ti-letter-x:before {
   content: "\ec67";
 }
 
+.ti-letter-x-small:before {
+  content: "\fcde";
+}
+
 .ti-letter-y:before {
   content: "\ec68";
 }
 
+.ti-letter-y-small:before {
+  content: "\fcdf";
+}
+
 .ti-letter-z:before {
   content: "\ec69";
+}
+
+.ti-letter-z-small:before {
+  content: "\fce0";
 }
 
 .ti-license:before {
@@ -11364,6 +11536,10 @@
 
 .ti-line-height:before {
   content: "\eb94";
+}
+
+.ti-line-scan:before {
+  content: "\fcb8";
 }
 
 .ti-link:before {
@@ -11728,6 +11904,10 @@
 
 .ti-magnet-off:before {
   content: "\f159";
+}
+
+.ti-magnetic:before {
+  content: "\fcb9";
 }
 
 .ti-mail:before {
@@ -13142,6 +13322,10 @@
   content: "\fbf0";
 }
 
+.ti-navigation-east:before {
+  content: "\fcba";
+}
+
 .ti-navigation-exclamation:before {
   content: "\fbf1";
 }
@@ -13159,7 +13343,7 @@
 }
 
 .ti-navigation-north:before {
-  content: "\faec";
+  content: "\fcbb";
 }
 
 .ti-navigation-off:before {
@@ -13190,12 +13374,24 @@
   content: "\fbf9";
 }
 
+.ti-navigation-south:before {
+  content: "\fcbc";
+}
+
 .ti-navigation-star:before {
   content: "\fbfa";
 }
 
+.ti-navigation-top:before {
+  content: "\faec";
+}
+
 .ti-navigation-up:before {
   content: "\fbfb";
+}
+
+.ti-navigation-west:before {
+  content: "\fcbd";
 }
 
 .ti-navigation-x:before {
@@ -13294,40 +13490,160 @@
   content: "\edf0";
 }
 
+.ti-number-0-small:before {
+  content: "\fce1";
+}
+
 .ti-number-1:before {
   content: "\edf1";
+}
+
+.ti-number-1-small:before {
+  content: "\fce2";
+}
+
+.ti-number-10-small:before {
+  content: "\fce3";
+}
+
+.ti-number-11-small:before {
+  content: "\fce4";
+}
+
+.ti-number-12-small:before {
+  content: "\fce5";
+}
+
+.ti-number-13-small:before {
+  content: "\fce6";
+}
+
+.ti-number-14-small:before {
+  content: "\fce7";
+}
+
+.ti-number-15-small:before {
+  content: "\fce8";
+}
+
+.ti-number-16-small:before {
+  content: "\fce9";
+}
+
+.ti-number-17-small:before {
+  content: "\fcea";
+}
+
+.ti-number-18-small:before {
+  content: "\fceb";
+}
+
+.ti-number-19-small:before {
+  content: "\fcec";
 }
 
 .ti-number-2:before {
   content: "\edf2";
 }
 
+.ti-number-2-small:before {
+  content: "\fced";
+}
+
+.ti-number-20-small:before {
+  content: "\fcee";
+}
+
+.ti-number-21-small:before {
+  content: "\fcef";
+}
+
+.ti-number-22-small:before {
+  content: "\fcf0";
+}
+
+.ti-number-23-small:before {
+  content: "\fcf1";
+}
+
+.ti-number-24-small:before {
+  content: "\fcf2";
+}
+
+.ti-number-25-small:before {
+  content: "\fcf3";
+}
+
+.ti-number-26-small:before {
+  content: "\fcf4";
+}
+
+.ti-number-27-small:before {
+  content: "\fcf5";
+}
+
+.ti-number-28-small:before {
+  content: "\fcf6";
+}
+
+.ti-number-29-small:before {
+  content: "\fcf7";
+}
+
 .ti-number-3:before {
   content: "\edf3";
+}
+
+.ti-number-3-small:before {
+  content: "\fcf8";
 }
 
 .ti-number-4:before {
   content: "\edf4";
 }
 
+.ti-number-4-small:before {
+  content: "\fcf9";
+}
+
 .ti-number-5:before {
   content: "\edf5";
+}
+
+.ti-number-5-small:before {
+  content: "\fcfa";
 }
 
 .ti-number-6:before {
   content: "\edf6";
 }
 
+.ti-number-6-small:before {
+  content: "\fcfb";
+}
+
 .ti-number-7:before {
   content: "\edf7";
+}
+
+.ti-number-7-small:before {
+  content: "\fcfc";
 }
 
 .ti-number-8:before {
   content: "\edf8";
 }
 
+.ti-number-8-small:before {
+  content: "\fcfd";
+}
+
 .ti-number-9:before {
   content: "\edf9";
+}
+
+.ti-number-9-small:before {
+  content: "\fcfe";
 }
 
 .ti-numbers:before {
@@ -13900,6 +14216,10 @@
 
 .ti-photo-question:before {
   content: "\f997";
+}
+
+.ti-photo-scan:before {
+  content: "\fca8";
 }
 
 .ti-photo-search:before {
@@ -14910,6 +15230,10 @@
   content: "\f00b";
 }
 
+.ti-robot-face:before {
+  content: "\fcbe";
+}
+
 .ti-robot-off:before {
   content: "\f192";
 }
@@ -15018,8 +15342,36 @@
   content: "\f4b6";
 }
 
+.ti-route-alt-left:before {
+  content: "\fca9";
+}
+
+.ti-route-alt-right:before {
+  content: "\fcaa";
+}
+
 .ti-route-off:before {
   content: "\f194";
+}
+
+.ti-route-scan:before {
+  content: "\fcbf";
+}
+
+.ti-route-square:before {
+  content: "\fcac";
+}
+
+.ti-route-square-2:before {
+  content: "\fcab";
+}
+
+.ti-route-x:before {
+  content: "\fcae";
+}
+
+.ti-route-x-2:before {
+  content: "\fcad";
 }
 
 .ti-router:before {
@@ -15080,6 +15432,10 @@
 
 .ti-run:before {
   content: "\ec82";
+}
+
+.ti-rv-truck:before {
+  content: "\fcc0";
 }
 
 .ti-s-turn-down:before {
@@ -15920,6 +16276,10 @@
 
 .ti-sofa-off:before {
   content: "\f42c";
+}
+
+.ti-solar-electricity:before {
+  content: "\fcc1";
 }
 
 .ti-solar-panel:before {
@@ -17030,6 +17390,10 @@
   content: "\eb30";
 }
 
+.ti-sun-electricity:before {
+  content: "\fcc2";
+}
+
 .ti-sun-filled:before {
   content: "\f6a9";
 }
@@ -17348,6 +17712,10 @@
 
 .ti-text-resize:before {
   content: "\ef87";
+}
+
+.ti-text-scan-2:before {
+  content: "\fcc3";
 }
 
 .ti-text-size:before {
@@ -17882,6 +18250,10 @@
   content: "\eba2";
 }
 
+.ti-universe:before {
+  content: "\fcc4";
+}
+
 .ti-unlink:before {
   content: "\eb46";
 }
@@ -17976,6 +18348,10 @@
 
 .ti-user-question:before {
   content: "\f7cf";
+}
+
+.ti-user-scan:before {
+  content: "\fcaf";
 }
 
 .ti-user-search:before {
@@ -18390,6 +18766,10 @@
   content: "\ecd5";
 }
 
+.ti-waves-electricity:before {
+  content: "\fcc5";
+}
+
 .ti-webhook:before {
   content: "\f01e";
 }
@@ -18440,6 +18820,10 @@
 
 .ti-wind:before {
   content: "\ec34";
+}
+
+.ti-wind-electricity:before {
+  content: "\fcc6";
 }
 
 .ti-wind-off:before {
@@ -18788,6 +19172,10 @@
 
 .ti-zoom-reset:before {
   content: "\f295";
+}
+
+.ti-zoom-scan:before {
+  content: "\fcb0";
 }
 
 .ti-zzz:before {
