@@ -1,8 +1,39 @@
 #!/usr/bin/env node
 
-import { buildIcons } from '../../.build/build-icons.mjs'
+import { buildJsIcons, buildIconsList } from '../../.build/build-icons.mjs'
+import { readFileSync, writeFileSync } from 'fs'
+import { getAllIcons, toPascalCase } from '../../.build/helpers.mjs'
+
+const updatePackageJson = () => {
+  let packageJson = JSON.parse(readFileSync('package.json', 'utf-8'))
+
+  if (packageJson.exports) {
+    for (const key in packageJson.exports) {
+      if (key.match(/^\.\/[^\.]+\.svelte$/)) {
+        delete packageJson.exports[key]
+      }
+    }
+  }
+
+  const allIcons = getAllIcons(false, false)
+
+  Object.entries(allIcons).forEach(([type, icons]) => {
+    icons.forEach((icon, i) => {
+      const iconName = `${icon.name}${type !== 'outline' ? `-${type}` : ''}`,
+        iconNamePascal = `${icon.namePascal}${type !== 'outline' ? toPascalCase(type) : ''}`
+
+      packageJson.exports[`./${iconNamePascal}.svelte`] = {
+        types: `./dist/icons/${iconName}.svelte.d.ts`,
+        svelte: `./dist/icons/${iconName}.svelte`
+      }
+    })
+  })
+
+  writeFileSync('package.json', JSON.stringify(packageJson, null, 2))
+}
 
 const componentTemplate = ({
+  type,
   name,
   children,
   stringify
@@ -10,50 +41,35 @@ const componentTemplate = ({
   return `\
 <script lang="ts">
 import Icon from '../Icon.svelte';
-const iconNode = ${JSON.stringify(children)};
+import type { IconNode, IconProps } from '../types.js';
+
+type $$Props = IconProps;
+
+const iconNode: IconNode = ${JSON.stringify(children)};
 </script>
-<Icon name="${name}" {...$$props} iconNode={iconNode}>
+<Icon type="${type}" name="${name}" {...$$props} iconNode={iconNode}>
   <slot/>
 </Icon>
 `;
 };
 
+const aliasTemplate = ({ fromPascal, to }) => `export { default as Icon${fromPascal} } from './icons/${to}.svelte';\n`
+
 const indexItemTemplate = ({
   name,
   namePascal
-}) => `export { default as ${namePascal} } from './icons/${namePascal}.svelte';`
+}) => `export { default as ${namePascal} } from './${name}.svelte';`
 
-const typeDefinitionsTemplate = () => `/// <reference types="svelte" />
-/// <reference types="svelte2tsx/svelte-jsx" />
-import { SvelteComponentTyped } from "svelte";
-
-interface IconProps extends Partial<svelte.JSX.SVGProps<SVGSVGElement>> {
-  color?: string
-  size?: number,
-  stroke?: number,
-  class?: string
-}
-
-interface IconEvents {
-  [evt: string]: CustomEvent<any>;
-}
-
-export type Icon = SvelteComponentTyped<IconProps, IconEvents, {}>
-
-// Generated icons`
-
-const indexTypeTemplate = ({
-  namePascal
-}) => `export declare class ${namePascal} extends SvelteComponentTyped<IconProps, IconEvents, {}> {}`
-
-
-buildIcons({
+buildJsIcons({
   name: 'icons-svelte',
   componentTemplate,
   indexItemTemplate,
-  typeDefinitionsTemplate,
-  indexTypeTemplate,
+  aliasTemplate,
   extension: 'svelte',
-  pretty: false,
-  key: false
+  key: false,
+  indexFile: 'index.ts',
+  pascalName: false,
 })
+
+updatePackageJson()
+buildIconsList('icons-svelte')

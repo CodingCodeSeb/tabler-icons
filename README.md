@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tabler/tabler-icons/master/.github/packages/og-core.png" alt="Tabler Icons" width="838">
+  <img src="https://raw.githubusercontent.com/tabler/tabler-icons/main/.github/packages/og-core.png" alt="Tabler Icons" width="838">
 </p>
 
 <p align="center">
-    A set of <!--icons-count-->4962<!--/icons-count--> free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a 2px stroke.
+    A set of <!--icons-count-->5201<!--/icons-count--> free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a 2px stroke.
 <p>
 
 <p align="center">
@@ -21,11 +21,23 @@
 
 ## Preview
 
+### Outline version (<!--icons-count-outline-->4547<!--/icons-count-outline--> icons)
+
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tabler/tabler-icons/master/.github/icons-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tabler/tabler-icons/master/.github/icons.png">
-    <img src="https://raw.githubusercontent.com/tabler/tabler-icons/master/.github/icons.png" alt="Tabler Icons preview" width="838">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tabler/tabler-icons/master/.github/preview/icons-outline-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tabler/tabler-icons/master/.github/preview/icons-outline.png">
+    <img src="https://raw.githubusercontent.com/tabler/tabler-icons/master/.github/preview/icons-outline.png" alt="Tabler Icons preview" width="838">
+  </picture>
+</p>
+
+### Filled version (<!--icons-count-filled-->654<!--/icons-count-filled--> icons)
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tabler/tabler-icons/master/.github/preview/icons-filled-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tabler/tabler-icons/master/.github/preview/icons-filled.png">
+    <img src="https://raw.githubusercontent.com/tabler/tabler-icons/master/.github/preview/icons-filled.png" alt="Tabler Icons preview" width="838">
   </picture>
 </p>
 
@@ -103,7 +115,7 @@ React components available through [`@tabler/icons-react`](https://www.npmjs.com
 import { IconAward } from '@tabler/icons-react';
 
 const MyComponent = () => {
-  return <IconAward 
+  return <IconAward
     size={36} // set custom `width` and `height`
     color="red" // set `stroke` color
     stroke={3}  // set `stroke-width`
@@ -165,10 +177,10 @@ For more details, see the [documentation](https://github.com/tabler/tabler-icons
 
 ### Angular
 
-Angular components available through [`angular-tabler-icons`](https://www.npmjs.com/package/angular-tabler-icons) package.  
+Angular components available through [`angular-tabler-icons`](https://www.npmjs.com/package/angular-tabler-icons) package.
 Install the package, then create icons module:
 
-```ts  
+```ts
 import { NgModule } from '@angular/core';
 
 import { TablerIconsModule } from 'angular-tabler-icons';
