@@ -1,7 +1,7 @@
 <!--
 category: Shapes
-version: "2.33"
-unicode: "fc75"
+unicode: "feb6"
+version: "3.2"
 -->
 <svg
   xmlns="http://www.w3.org/2000/svg"
@@ -22,6 +22,6 @@ unicode: "fc75"
   <path d="M20.31 15.44a9 9 0 0 0 .69 -3.44" />
   <path d="M20.31 8.56a9 9 0 0 0 -1.95 -2.92" />
   <path d="M15.44 3.69a9 9 0 0 0 -3.44 -.69" />
-  <path d="M14 14l-4 -4" />
-  <path d="M10 14l4 -4" />
+  <path d="M9 12h6" />
+  <path d="M12 9v6" />
 </svg>
