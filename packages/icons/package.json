@@ -1,6 +1,6 @@
 {
   "name": "@tabler/icons",
-  "version": "3.31.0",
+  "version": "3.36.1",
   "license": "MIT",
   "author": "codecalm",
   "description": "A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.",
@@ -8,6 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/tabler/tabler-icons.git"
   },
+  "amdName": "TablerIcons",
   "exports": {
     "./*": [
       "./icons/*"
@@ -46,5 +47,9 @@
     "react",
     "front-end",
     "web"
-  ]
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {}
 }

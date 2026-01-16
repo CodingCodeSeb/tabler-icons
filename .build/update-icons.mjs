@@ -1,18 +1,17 @@
 import { globSync } from 'glob'
-import fs from 'fs'
+import { readFileSync, writeFileSync } from 'fs'
 import path from 'path'
-import { ICONS_SRC_DIR, getMaxUnicode, getArgvs, getPackageJson } from './helpers.mjs'
+import { ICONS_SRC_DIR, getMaxUnicode, getPackageJson } from './helpers.mjs'
 
-const argv = getArgvs(),
-  pkg = getPackageJson(),
-  newVersion = argv['new-version'] || pkg.version
+const pkg = getPackageJson(),
+  newVersion = process.env.NEW_VERSION || pkg.version
 
 const files = globSync(path.join(ICONS_SRC_DIR, '**/*.svg'))
 
 let maxUnicode = getMaxUnicode()
 
 files.forEach(function (file) {
-  let svgFile = fs.readFileSync(file).toString()
+  let svgFile = readFileSync(file).toString()
 
   // Add unicode to svg files
   if (!svgFile.match(/\nunicode: "?([a-f0-9.]+)"?/i)) {
@@ -25,7 +24,7 @@ files.forEach(function (file) {
       })
 
       console.log(`Add unicode "${unicode}" to "${file}"`)
-      fs.writeFileSync(file, svgFile, 'utf8')
+      writeFileSync(file, svgFile, 'utf8')
     }
   }
 
@@ -43,7 +42,7 @@ files.forEach(function (file) {
       console.log(svgFile);
 
       console.log(`Add version "${minorVersion}" to "${file}"`)
-      fs.writeFileSync(file, svgFile, 'utf8')
+      writeFileSync(file, svgFile, 'utf8')
     }
   }
 })

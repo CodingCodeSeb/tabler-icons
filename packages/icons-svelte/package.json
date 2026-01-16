@@ -1,6 +1,6 @@
 {
   "name": "@tabler/icons-svelte",
-  "version": "3.31.0",
+  "version": "3.36.1",
   "license": "MIT",
   "author": "codecalm",
   "description": "A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.",
@@ -20,6 +20,7 @@
   "svelte": "./dist/tabler-icons-svelte.js",
   "types": "./dist/tabler-icons-svelte.d.ts",
   "type": "module",
+  "amdName": "TablerIconsSvelte",
   "exports": {
     ".": {
       "types": "./dist/tabler-icons-svelte.d.ts",
@@ -49,18 +50,20 @@
     "imports-check": "attw $(npm pack)"
   },
   "dependencies": {
-    "@tabler/icons": "3.31.0"
+    "@tabler/icons": "workspace:"
   },
   "devDependencies": {
     "@sveltejs/package": "^2.2.7",
-    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@sveltejs/vite-plugin-svelte": "^3.1.2",
     "@testing-library/svelte": "^4.2.1",
     "@tsconfig/svelte": "^5.0.2",
     "svelte": "^4.2.12",
     "svelte-check": "^3.6.5",
-    "svelte-preprocess": "^5.1.3"
+    "svelte-preprocess": "^5.1.3",
+    "vite": "^5.4.0"
   },
   "peerDependencies": {
     "svelte": ">=3 <6 || >=5.0.0-next.0"
-  }
+  },
+  "optionalDependencies": {}
 }

@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    A set of <!--icons-count-->5880<!--/icons-count--> free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a 2px stroke.
+    A set of <!--icons-count-->5984<!--/icons-count--> free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a 2px stroke.
 <p>
 
 <p align="center">
@@ -37,7 +37,7 @@
 
 ## Preview
 
-### Outline version (<!--icons-count-outline-->4936<!--/icons-count-outline--> icons)
+### Outline version (<!--icons-count-outline-->4985<!--/icons-count-outline--> icons)
 
 <p align="center">
   <picture>
@@ -47,7 +47,7 @@
   </picture>
 </p>
 
-### Filled version (<!--icons-count-filled-->944<!--/icons-count-filled--> icons)
+### Filled version (<!--icons-count-filled-->999<!--/icons-count-filled--> icons)
 
 <p align="center">
   <picture>
@@ -232,7 +232,7 @@ After importing the _IconsModule_ in your feature or shared module, use the icon
 
 For more usage documentation refer to [the official documentation](https://github.com/pierreavn/angular-tabler-icons).
 
-### Svelte
+### Svelte 4 and below
 
 Svelte components available through [`@tabler/icons-svelte`](https://github.com/tabler/tabler-icons/tree/master/packages/icons-svelte) package.
 
@@ -244,6 +244,21 @@ Svelte components available through [`@tabler/icons-svelte`](https://github.com/
 <main>
   <IconHeart size={48} stroke={1} />
   <IconHeart size="32" stroke="1.5" />
+  <IconHeart color="crimson" class="p-1" size="96" stroke="2" />
+</main>
+```
+
+### Svelte 5
+Svelte 5 components available through [`@tabler/icons-svelte-runes`](https://www.npmjs.com/package/@tabler/icons-svelte-runes) package.
+
+```js
+<script lang="ts">
+  import { IconHeart } from '@tabler/icons-svelte-runes';
+</script>
+
+<main>
+  <IconHeart size={48} stroke={1} />
+  <IconHeart size="32" stroke={1.5} />
   <IconHeart color="crimson" class="p-1" size="96" stroke="2" />
 </main>
 ```

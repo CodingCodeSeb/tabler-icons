@@ -1,9 +1,9 @@
-import fs from 'fs';
+import { readdirSync, readFileSync, existsSync, writeFileSync, mkdirSync } from 'fs';
 import path, { resolve, basename } from 'path';
 import { fileURLToPath } from 'url';
 import svgParse from 'parse-svg-path';
 import svgpath from 'svgpath';
-import * as cheerio from 'cheerio';
+import { load as cheerioLoad } from 'cheerio';
 import { minify } from 'html-minifier';
 import { parseSync } from 'svgson';
 import { optimize } from 'svgo';
@@ -13,6 +13,56 @@ import matter from 'gray-matter';
 import { globSync } from 'glob';
 import { exec } from 'child_process';
 import slash from 'slash';
+
+export const strokes = {
+  200: 1,
+  300: 1.5,
+  400: 2,
+}
+
+export const categories = [
+  'Animals',
+  'Arrows',
+  'Badges',
+  'Brand',
+  'Buildings',
+  'Charts',
+  'Communication',
+  'Computers',
+  'Currencies',
+  'Database',
+  'Design',
+  'Development',
+  'Devices',
+  'Document',
+  'E-commerce',
+  'Electrical',
+  'Extensions',
+  'Food',
+  'Games',
+  'Gender',
+  'Gestures',
+  'Health',
+  'Laundry',
+  'Letters',
+  'Logic',
+  'Map',
+  'Math',
+  'Media',
+  'Mood',
+  'Nature',
+  'Numbers',
+  'Photography',
+  'Shapes',
+  'Sport',
+  'Symbols',
+  'System',
+  'Text',
+  'Vehicles',
+  'Version control',
+  'Weather',
+  'Zodiac'
+]
 
 export const iconTemplate = (type) =>
   type === 'outline'
@@ -65,19 +115,19 @@ const getSvgContent = (svg, type, name) => {
 
 export const getAllIcons = (withContent = false, withObject = false) => {
   let icons = {};
-  const limit = process.env['ICONS_LIMIT'] || Infinity;
+  const limit = process.env['ICONS_LIMIT'] ? parseInt(process.env['ICONS_LIMIT'], 10) : Infinity;
 
   types.forEach((type) => {
     icons[type] = globSync(slash(path.join(ICONS_SRC_DIR, `${type}/*.svg`)))
+      .sort((a, b) => a.localeCompare(b))
       .slice(0, limit)
-      .sort()
       .map((i) => {
         const { data, content } = parseMatter(i),
           name = basename(i, '.svg');
 
         return {
           name,
-          namePascal: toPascalCase(`icon ${name}`),
+          namePascal: toPascalCase(`${name}`),
           path: i,
           category: data.category || '',
           tags: data.tags || [],
@@ -140,7 +190,7 @@ export const getPackageDir = (packageName) => {
  * @returns {any}
  */
 export const getPackageJson = () => {
-  return JSON.parse(fs.readFileSync(resolve(HOME_DIR, 'package.json'), 'utf-8'));
+  return JSON.parse(readFileSync(resolve(HOME_DIR, 'package.json'), 'utf-8'));
 };
 
 /**
@@ -150,11 +200,11 @@ export const getPackageJson = () => {
  * @returns {string[]}
  */
 export const readSvgDirectory = (directory) => {
-  return fs.readdirSync(directory).filter((file) => path.extname(file) === '.svg');
+  return readdirSync(directory).filter((file) => path.extname(file) === '.svg');
 };
 
 export const getAliases = (groupped = false) => {
-  const allAliases = JSON.parse(fs.readFileSync(resolve(HOME_DIR, 'aliases.json'), 'utf-8'));
+  const allAliases = JSON.parse(readFileSync(resolve(HOME_DIR, 'aliases.json'), 'utf-8'));
   const allIcons = getAllIcons();
 
   if (groupped) {
@@ -197,7 +247,7 @@ export const getAliases = (groupped = false) => {
  * @returns {string}
  */
 export const readSvg = (fileName, directory) => {
-  return fs.readFileSync(path.join(directory, fileName), 'utf-8');
+  return readFileSync(path.join(directory, fileName), 'utf-8');
 };
 
 /**
@@ -205,8 +255,8 @@ export const readSvg = (fileName, directory) => {
  * @param dir
  */
 export const createDirectory = (dir) => {
-  if (!fs.existsSync(dir)) {
-    fs.mkdirSync(dir);
+  if (!existsSync(dir)) {
+    mkdirSync(dir);
   }
 };
 
@@ -284,7 +334,7 @@ export function buildIconsObject(svgFiles, getSvg) {
 }
 
 function getSvgContents(svg) {
-  const $ = cheerio.load(svg);
+  const $ = cheerioLoad(svg);
   return minify($('svg').html(), { collapseWhitespace: true });
 }
 
@@ -342,7 +392,7 @@ export const generateIconsPreview = async function (
   files.forEach(function (file, i) {
     const name = file.replace(/^(.*)\/([^\/]+)\/([^.]+).svg$/g, '$2-$3');
 
-    let svgFile = fs.readFileSync(file),
+    let svgFile = readFileSync(file),
       svgFileContent = svgFile.toString();
 
     svgFileContent = createSvgSymbol(svgFileContent, name, stroke);
@@ -362,7 +412,7 @@ export const generateIconsPreview = async function (
 
   console.log(destFile);
 
-  fs.writeFileSync(destFile, svgContent);
+  writeFileSync(destFile, svgContent);
 
   if (png) {
     await createScreenshot(destFile, retina);
@@ -429,9 +479,9 @@ export const getCompileOptions = () => {
     fontForge: 'fontforge',
   };
 
-  if (fs.existsSync('../compile-options.json')) {
+  if (existsSync('../compile-options.json')) {
     try {
-      const tempOptions = JSON.parse(fs.readFileSync('../compile-options.json').toString());
+      const tempOptions = JSON.parse(readFileSync('../compile-options.json').toString());
 
       if (typeof tempOptions !== 'object') {
         throw 'Compile options file does not contain an json object';
@@ -503,17 +553,28 @@ export const getCompileOptions = () => {
 };
 
 export const convertIconsToImages = async (dir, extension, size = 240) => {
+  const rsvgConvertAvailable = await new Promise((resolve) => {
+    exec('command -v rsvg-convert', (error) => {
+      resolve(!error);
+    });
+  });
+
+  if (!rsvgConvertAvailable) {
+    console.log(`\nWarning: rsvg-convert not found. Skipping ${extension} conversion.`);
+    return;
+  }
+
   const icons = getAllIcons();
 
   await asyncForEach(Object.entries(icons), async function ([type, svgFiles]) {
-    fs.mkdirSync(path.join(dir, `./${type}`), { recursive: true });
+    mkdirSync(path.join(dir, `./${type}`), { recursive: true });
 
     await asyncForEach(svgFiles, async function (file, i) {
       const distPath = path.join(dir, `./${type}/${file.name}.${extension}`);
 
-      process.stdout.write(
-        `Building \`icons/${extension}\` ${type} ${i}/${svgFiles.length}: ${file.name.padEnd(42)}\r`,
-      );
+      // process.stdout.write(
+      //   `Building \`icons/${extension}\` ${type} ${i}/${svgFiles.length}: ${file.name.padEnd(42)}\r`,
+      // );
 
       await new Promise((resolve, reject) => {
         exec(`rsvg-convert -f ${extension} -h ${size} ${file.path} > ${distPath}`, (error) => {
@@ -529,7 +590,7 @@ export const getMaxUnicode = () => {
   let maxUnicode = 0;
 
   files.forEach(function (file) {
-    const svgFile = fs.readFileSync(file).toString();
+    const svgFile = readFileSync(file).toString();
 
     svgFile.replace(/unicode: "([a-f0-9.]+)"/i, function (m, unicode) {
       const newUnicode = parseInt(unicode, 16);

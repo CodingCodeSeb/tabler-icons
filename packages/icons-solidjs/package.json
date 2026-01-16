@@ -1,6 +1,6 @@
 {
   "name": "@tabler/icons-solidjs",
-  "version": "3.31.0",
+  "version": "3.36.1",
   "license": "MIT",
   "author": "codecalm",
   "description": "A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.",
@@ -19,10 +19,11 @@
   },
   "sideEffects": false,
   "type": "module",
+  "amdName": "TablerIconsSolidjs",
   "exports": {
     ".": {
       "import": {
-        "types": "./dist/esm/tabler-icons-solidjs.d.ts",
+        "types": "./dist/tabler-icons-solidjs.d.ts",
         "default": "./dist/esm/tabler-icons-solidjs.js"
       },
       "require": {
@@ -47,16 +48,17 @@
     "imports-check": "attw $(npm pack)"
   },
   "dependencies": {
-    "@tabler/icons": "3.31.0"
+    "@tabler/icons": "workspace:"
   },
   "devDependencies": {
     "@solidjs/testing-library": "^0.8.6",
     "rollup-preset-solid": "^2.0.1",
     "vite-plugin-solid": "^2.10.1",
     "solid-js": "^1.8.15",
-    "rollup": "^4.12.0"
+    "rollup": "catalog:"
   },
   "peerDependencies": {
     "solid-js": "^1.4.7"
-  }
+  },
+  "optionalDependencies": {}
 }

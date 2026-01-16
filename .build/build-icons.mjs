@@ -31,9 +31,9 @@ export const buildJsIcons = ({
   let index = [];
   Object.entries(allIcons).forEach(([type, icons]) => {
     icons.forEach((icon, i) => {
-      process.stdout.write(
-        `Building \`${name}\` ${type} ${i}/${icons.length}: ${icon.name.padEnd(42)}\r`,
-      );
+      // process.stdout.write(
+      //   `Building \`${name}\` ${type} ${i}/${icons.length}: ${icon.name.padEnd(42)}\r`,
+      // );
 
       const children = icon.obj.children
         .map(({ name, attributes }, i) => {
@@ -68,7 +68,7 @@ export const buildJsIcons = ({
       let filePath = path.resolve(
         DIST_DIR,
         'src/icons',
-        `${pascalName ? iconNamePascal : iconName}.${extension}`,
+        `${pascalName ? `Icon${iconNamePascal}` : iconName}.${extension}`,
       );
       fs.writeFileSync(filePath, component, 'utf-8');
 
@@ -107,9 +107,9 @@ export const buildIconsList = (name) => {
   let index = [];
   Object.entries(allIcons).forEach(([type, icons]) => {
     icons.forEach((icon, i) => {
-      process.stdout.write(
-        `Building \`${name}\` ${type} ${i}/${icons.length}: ${icon.name.padEnd(42)}\r`,
-      );
+      // process.stdout.write(
+      //   `Building \`${name}\` ${type} ${i}/${icons.length}: ${icon.name.padEnd(42)}\r`,
+      // );
 
       const iconName = `${icon.name}${type !== 'outline' ? `-${type}` : ''}`;
 
@@ -131,14 +131,14 @@ export const buildIconsDynamicImport = (name) => {
   let dynamicImportString = 'export default {';
   Object.entries(allIcons).forEach(([type, icons]) => {
     icons.forEach((icon, i) => {
-      process.stdout.write(
-        `Building \`${name}\` ${type} ${i}/${icons.length}: ${icon.name.padEnd(42)}\r`,
-      );
+      // process.stdout.write(
+      //   `Building \`${name}\` ${type} ${i}/${icons.length}: ${icon.name.padEnd(42)}\r`,
+      // );
 
       const iconName = `${icon.name}${type !== 'outline' ? `-${type}` : ''}`,
         iconNamePascal = `${icon.namePascal}${type !== 'outline' ? toPascalCase(type) : ''}`;
 
-      dynamicImportString += `  '${iconName}': () => import('./icons/${iconNamePascal}'),\n`;
+      dynamicImportString += `  '${iconName}': () => import('./icons/Icon${iconNamePascal}'),\n`;
     });
   });
 
