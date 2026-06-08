@@ -1,10 +1,10 @@
 {
   "name": "@tabler/icons-react-native",
-  "version": "3.36.1",
+  "version": "3.44.0",
   "license": "MIT",
   "author": "codecalm",
   "description": "A set of free MIT-licensed high-quality SVG icons for you to use in your web projects.",
-  "homepage": "https://tabler-icons.io",
+  "homepage": "https://tabler.io/icons",
   "bugs": {
     "url": "https://github.com/tabler/tabler-icons/issues"
   },
@@ -54,7 +54,7 @@
     "build:icons": "node build.mjs",
     "build:bundles": "rollup -c ./rollup.config.mjs",
     "copy:license": "cp ../../LICENSE ./LICENSE",
-    "clean": "rm -rf dist && find . ! -name '.gitkeep' -path '*/src/icons/*' -exec rm -rf {} +",
+    "clean": "find dist -mindepth 1 -delete 2>/dev/null; rm -rf dist && find . ! -name '.gitkeep' -path '*/src/icons/*' -exec rm -rf {} +",
     "typecheck": "tsc",
     "imports-check": "attw $(npm pack)"
   },
@@ -62,17 +62,18 @@
     "@tabler/icons": "workspace:"
   },
   "devDependencies": {
-    "@testing-library/react": "^14.2.1",
-    "@types/react": "18.2.60",
-    "@vitejs/plugin-react": "^4.2.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "@testing-library/react": "catalog:",
+    "@types/react": "catalog:",
+    "@vitejs/plugin-react": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
     "react-native": "^0.73.5",
     "react-native-svg": "^15.0.0",
-    "react-test-renderer": "18.2.0"
+    "react-test-renderer": "catalog:"
   },
   "peerDependencies": {
-    "react": ">= 16.5.1"
+    "react": ">= 16.5.1",
+    "react-native-svg": ">= 13.0.0"
   },
   "optionalDependencies": {}
 }

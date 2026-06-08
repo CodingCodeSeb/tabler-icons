@@ -1,7 +1,7 @@
 # Tabler Icons for React
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/tabler/tabler-icons/main/.github/packages/og-package-react.png" alt="Tabler Icons" width="838">
+  <a href="https://tabler.io/icons?ref=tabler-icons-readme"><img src="https://raw.githubusercontent.com/tabler/tabler-icons/main/.github/packages/og-package-react.png" alt="Tabler Icons" width="838"></a>
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@ Implementation of the Tabler Icons library for React applications.
 <p>
 
 <p align="center">
-  <a href="https://tabler-icons.io/"><strong>Browse all icons at tabler-icons.io &rarr;</strong></a>
+  <a href="https://tabler.io/icons"><strong>Browse all icons at tabler.io &rarr;</strong></a>
 </p>
 
 <p align="center">

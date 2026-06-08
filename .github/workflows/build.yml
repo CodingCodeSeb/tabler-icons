@@ -17,8 +17,6 @@ jobs:
 
       - uses: pnpm/action-setup@v4
         name: Install pnpm
-        with:
-          version: 10.26.2
 
       - name: Install system dependencies for canvas and rsvg-convert
         run: |
@@ -51,5 +49,5 @@ jobs:
       - name: Build
         env:
           ICONS_LIMIT: 100
-        run: pnpm exec turbo build
+        run: pnpm run build
 
